@@ -7,13 +7,14 @@
     position: relative;
 
     .overlay-vdo {
-        position: absolute;
+        position: fixed;
+        
         width: 100%;
         height: 100vh;
         padding: 80px;
         z-index: 999;
         background-color: rgba(8, 8, 8, 0.608);
-        animation: ScaleIn .6s linear;
+        animation: ScaleIn .6s  ease-out;
 
         .btn {
             right: 30px;
@@ -39,6 +40,7 @@
         display: none;
     }
 
+ 
     .text-box {
         position: absolute;
         margin-left: 15%;
@@ -95,6 +97,7 @@
 
 @media(max-width:500px) {
     .header {
+        height: 105vh;
         .overlay-vdo {
             position: absolute;
             width: 100%;
@@ -117,6 +120,36 @@
                 color: white !important;
                 font-size: 40px;
                 z-index: 999;
+            }
+        }
+        .text-box{
+            margin: 0;
+            div{
+                text-align: center;
+                margin: 0;
+                padding: 10px;
+          
+                h2{
+                    font-size: 2rem;
+                    margin-bottom: 20px;
+
+                }
+                p{
+                    text-align: center;
+                    margin: 0 10px 0 10px;
+                }
+                .play-btn{
+                    margin-top: 10px;
+                    a{
+                        font-size: 1.2rem;
+                    }
+                    button{
+                        padding: 5px 10px;
+                        span{
+                            font-size: 25px;
+                        }
+                    }
+                }
             }
         }
     }
