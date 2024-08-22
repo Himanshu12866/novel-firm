@@ -1,11 +1,15 @@
 .navbar {
   padding-left: 50px;
 }
+.navbar .bi-bag {
+  display: none;
+}
 .navbar .navbar-brand {
   font-size: 40px;
   padding: 25px;
   font-weight: bolder;
   font-family: "Montserrat", sans-serif;
+  color: white;
 }
 .navbar button {
   border: none;
@@ -14,24 +18,87 @@
 .navbar button .bi-list {
   color: white;
 }
-.navbar .navbar-collapse .navbar-nav .nav-item {
-  position: relative;
+.navbar .navbar-collapse .navbar-nav .input-box {
+  display: none;
 }
 .navbar .navbar-collapse .navbar-nav .nav-item a {
   color: white !important;
   background-color: transparent;
   font-size: 20px;
   padding: 0 15px 0 15px;
+  text-align: right;
+  position: relative;
 }
-.navbar .navbar-collapse .navbar-nav .nav-item::before {
-  position: absolute;
+.navbar .navbar-collapse .navbar-nav .nav-item a:hover {
+  color: rgb(226, 0, 177) !important;
+  transition: 0.3s;
+}
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link::after {
+  content: "";
   width: 0;
-  height: 10px;
-  top: 100%;
-  background-color: red;
+  height: 2px;
+  display: block;
+  background-color: rgb(226, 0, 177);
+  transition: 0.3s;
 }
-.navbar .navbar-collapse .navbar-nav .nav-item::before:hover {
+.navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover::after {
   width: 100%;
+}
+
+@media (max-width: 500px) {
+  .navbar {
+    margin: 0;
+    padding-left: 0px;
+    height: auto;
+    margin: -30px 0 -60px 0;
+    background-color: white;
+    color: black;
+  }
+  .navbar .bi-bag {
+    display: block;
+    position: absolute;
+    right: 80px;
+    font-size: 25px;
+    top: 43px;
+  }
+  .navbar .navbar-collapse .navbar-nav {
+    border-top: 2px solid grey;
+  }
+  .navbar .navbar-collapse .navbar-nav .input-box {
+    display: block;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item {
+    padding: 10px;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link {
+    color: black !important;
+    text-align: left;
+    font-size: 15px;
+    border-bottom: 1px solid rgb(179, 174, 174);
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link::after {
+    content: "";
+    width: 0;
+    height: 2px;
+    display: block;
+    background-color: white;
+    transition: 0.3s;
+  }
+  .navbar .navbar-collapse .navbar-nav .nav-item .nav-link:hover::after {
+    width: 100%;
+  }
+  .navbar .navbar-brand {
+    color: black;
+    margin: 10px 0 -10px 0;
+    padding: 15px;
+  }
+  .navbar .navbar-toggler {
+    margin: 10px 15px -10px 0;
+  }
+  .navbar .navbar-toggler span {
+    font-size: 30px;
+    color: black;
+  }
 }
 
 /*# sourceMappingURL=navlinks.css.map */
