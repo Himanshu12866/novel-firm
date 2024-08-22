@@ -1,0 +1,49 @@
+.navbar {
+    padding-left: 50px;
+
+    .navbar-brand {
+        font-size: 40px;
+        padding: 25px;
+        font-weight: bolder;
+        font-family: "Montserrat", sans-serif;
+    }
+
+    button {
+        border: none;
+        background-color: transparent;
+
+        .bi-list {
+            color: white;
+
+        }
+    }
+
+    .navbar-collapse {
+        .navbar-nav {
+            .nav-item {
+                position: relative;
+                a {
+                    color: white !important;
+                    background-color: transparent;
+                    font-size: 20px;
+                    padding: 0 15px 0 15px;
+
+                }
+               
+            }
+            .nav-item::before{
+                // content: "sa";
+                position: absolute;
+            width: 0;
+            height: 10px;
+            top: 100%;
+            background-color: red;
+            }
+            .nav-item::before:hover{
+                width: 100%;
+            }
+        }
+
+
+    }
+}
