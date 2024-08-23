@@ -1,0 +1,20 @@
+.box4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    .row{
+        width: 80%;
+        padding: 30px;
+        
+        .col-lg-4{
+            padding: 0 !important;
+            margin: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+       
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

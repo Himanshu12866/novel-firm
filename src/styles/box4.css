@@ -1,0 +1,20 @@
+.box4 {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
+}
+.box4 .row {
+  width: 80%;
+  padding: 30px;
+}
+.box4 .row .col-lg-4 {
+  padding: 0 !important;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.box4 .row .col-lg-4 img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=box4.css.map */
