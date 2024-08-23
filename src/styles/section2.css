@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.section-box2 {
+  background: linear-gradient(90deg, rgb(46, 17, 38) 1%, rgb(40, 24, 77) 100%);
+  width: 100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section-box2 .row {
+  width: 75%;
+}
+.section-box2 .row .col-lg-4 span {
+  font-size: 32px;
+  color: rgb(147, 54, 255);
+  line-height: 40px;
+  height: auto;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+/*# sourceMappingURL=section2.css.map */
