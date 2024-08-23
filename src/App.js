@@ -9,8 +9,8 @@ export default function App(){
     <div style={{height:"auto"}}>
       <Header />
       <SectionBox1 />
-      <br></br>
       <SectionBox2/>
+      <br></br>
     </div>
   )
 }

@@ -1,7 +1,7 @@
 import "../styles/navlinks.css";
 export default function NavBar() {
   return (
-    <div className="navbar navbar-expand-sm">
+    <div className="navbar navbar-expand-sm" style={{zIndex:"999"}}>
       <a href="/" className="navbar-brand">
       
         Jenga
