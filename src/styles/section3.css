@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .section-box3 {
   width: 100%;
   overflow: hidden;
@@ -21,10 +22,44 @@
 }
 .section-box3 .row .col-lg-3 .overlayBox .innerBox {
   width: 70%;
+  height: 80%;
   margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
 .section-box3 .row .col-lg-3 .overlayBox .innerBox img {
   width: 35px;
+}
+.section-box3 .row .col-lg-3 .overlayBox .innerBox .innerBox1 h2 {
+  color: white;
+  font-size: 22px;
+  font-weight: bolder;
+  line-height: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.section-box3 .row .col-lg-3 .overlayBox .innerBox .innerBox1 p {
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+.section-box3 .row .col-lg-3 .overlayBox .innerBox .innerBox1 button {
+  border: none;
+  padding: 12px 20px 12px 20px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: normal;
+  transition: 0.3s linear;
+  font-family: "Montserrat", sans-serif;
+}
+.section-box3 .row .col-lg-3 .overlayBox .innerBox .innerBox1 button:hover {
+  background-color: white;
+  color: black;
+}
+.section-box3 .row .col-lg-3 .overlayBox .innerBox .innerBox1 .text-box {
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=section3.css.map */
