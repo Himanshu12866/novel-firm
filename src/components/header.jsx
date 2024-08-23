@@ -23,7 +23,7 @@ function Unchange(){
                     <h2>Future Planet Just</h2>
                     <h2>By Data</h2>
 
-                    <p><b>Massive Dynamic</b> --
+                    <p><b>Massive Dynamic</b> —
                         <span>The only theme covers all aspects;</span>
                         <br></br>
                         <span>beautiful layouts, super customizable, blazing fast, </span>

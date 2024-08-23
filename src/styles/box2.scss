@@ -1,0 +1,43 @@
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+
+    .row {
+        width: 75%;
+        margin-top: 6rem;
+
+        .col-lg-4 {
+            padding-left: 10px;
+            div{
+                img{
+                    margin: 10px 0 10px 0;
+                }
+                h2{
+                    font-weight: normal;
+                    font-size: 25px;
+                    color: rgba(29, 28, 28, 0.724);
+                    
+                }
+                p{
+                    color: grey;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+@media(max-width:500px){
+    .box2{
+       
+        .row{
+            width: 100%;
+            text-align: center;
+            .col-lg-4{
+                margin: 15px 0 15px 0;
+            }
+
+        }
+    }
+}

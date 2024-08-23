@@ -1,0 +1,37 @@
+.box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: stretch;
+}
+.box2 .row {
+  width: 75%;
+  margin-top: 6rem;
+}
+.box2 .row .col-lg-4 {
+  padding-left: 10px;
+}
+.box2 .row .col-lg-4 div img {
+  margin: 10px 0 10px 0;
+}
+.box2 .row .col-lg-4 div h2 {
+  font-weight: normal;
+  font-size: 25px;
+  color: rgba(29, 28, 28, 0.724);
+}
+.box2 .row .col-lg-4 div p {
+  color: grey;
+  font-size: 15px;
+}
+
+@media (max-width: 500px) {
+  .box2 .row {
+    width: 100%;
+    text-align: center;
+  }
+  .box2 .row .col-lg-4 {
+    margin: 15px 0 15px 0;
+  }
+}
+
+/*# sourceMappingURL=box2.css.map */
