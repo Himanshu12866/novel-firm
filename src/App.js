@@ -6,15 +6,18 @@ import SectionBox1 from "./components/section1";
 import SectionBox2 from "./components/section2";
 import SectionBox3 from "./components/section3";
 import SectionBox4 from "./components/section4";
-export default function App(){
+import SectionBox5 from "./components/section5";
+export default function App() {
   return (
-    <div style={{height:"auto"}}>
+    <div style={{ height: "auto" }}>
       <Header />
       <SectionBox1 />
-      <SectionBox2/>
-      <SectionBox3/>
+      <SectionBox2 />
+      <SectionBox3 />
       <SectionBox4 />
-      
+      <SectionBox5 />
+
     </div>
   )
 }
+
