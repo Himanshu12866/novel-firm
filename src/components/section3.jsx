@@ -18,9 +18,7 @@ export default function SectionBox3() {
                                 <button className="rounded rounded-pill">How To Begin</button>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
                 <div className="col-lg-3 col-sm-12">
                     <img alt="pic" src="../images/pic1.jpg"></img>
@@ -31,13 +29,10 @@ export default function SectionBox3() {
                                <div className="text-box">
                                <h2>Customize</h2>
                                <h2>Everything</h2>
-
-                               </div>
-                              
+                               </div>                         
                                 <button className="rounded rounded-pill">Go To Website</button>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div className="col-lg-3 col-sm-12">
@@ -54,7 +49,6 @@ export default function SectionBox3() {
                                 <button className="rounded rounded-pill">See the Blog</button>
                             </div>
                         </div>
-
                     </div>
                 </div>
                 <div className="col-lg-3 col-sm-12">
@@ -66,11 +60,9 @@ export default function SectionBox3() {
                             <div className="text-box">
                                <h2>Customize</h2>
                                <h2>Everything</h2>
-
                                </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>

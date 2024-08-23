@@ -12,8 +12,9 @@
 }
 .box1 .row h1 {
   font-size: 35px;
-  color: grey;
+  color: black;
   margin: 20px 0 20px 0;
+  font-family: "Montserrat", sans-serif;
 }
 .box1 .row .row {
   width: 80%;
@@ -28,6 +29,7 @@
 .box1 .row .row .col-lg-11 p {
   color: darkgrey;
   font-size: 25px;
+  font-family: "Montserrat", sans-serif;
 }
 
 @media (max-width: 500px) {

@@ -5,6 +5,7 @@ import Header from "./components/header";
 import SectionBox1 from "./components/section1";
 import SectionBox2 from "./components/section2";
 import SectionBox3 from "./components/section3";
+import SectionBox4 from "./components/section4";
 export default function App(){
   return (
     <div style={{height:"auto"}}>
@@ -12,7 +13,8 @@ export default function App(){
       <SectionBox1 />
       <SectionBox2/>
       <SectionBox3/>
-      <br></br>
+      <SectionBox4 />
+      
     </div>
   )
 }

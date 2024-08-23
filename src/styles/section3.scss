@@ -1,20 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 .section-box3 {
     width: 100%;
     overflow: hidden;
-
     .row {
         .col-lg-3 {
             padding: 0 !important;
             position: relative;
             height: 100vh;
-
             img {
-                width: 100%;
-                // z-index: -10;
+              width: 100%;
             }
-
             .overlayBox {
                 position: absolute;
                 width: 100%;
@@ -23,9 +18,6 @@
                 display: flex;
                 padding: 20px;
                 justify-content: center;
-
-                // background-color: rgb(0, 0, 0);
-                // z-index: 999;
                 .innerBox {
                     width: 70%;
                     height: 80%;
@@ -33,27 +25,22 @@
                     display: flex;
                     justify-content: space-between;
                     flex-direction: column;
-                    
-
                     img {
                         width: 35px;
                     }
-
                     .innerBox1 {
                         h2{
                             color: white;
                             font-size: 22px;
                             font-weight: bolder;
                             line-height: 20px;
-                            font-family: "Montserrat", sans-serif;
-                        
+                            font-family: "Montserrat", sans-serif;                     
                         }
                         p{
                             color:white;
                             font-weight: 400;
                             font-size: 16px;
                             font-family: "Montserrat", sans-serif;
-
                         }
                         button{
                             border: none;
@@ -63,8 +50,7 @@
                             font-size: 14px;
                             font-weight: normal;
                             transition: .3s linear;
-                            font-family: "Montserrat", sans-serif;
-                            
+                            font-family: "Montserrat", sans-serif;                          
                         }
                         button:hover{
                             background-color: white;
@@ -73,12 +59,9 @@
                         .text-box{
                             margin-bottom: 40px;
                         }
-
                     }
-
                 }
             }
         }
     }
-
 }
