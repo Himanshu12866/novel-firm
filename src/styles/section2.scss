@@ -21,3 +21,17 @@
         }
     }
 }
+@media(max-width:500px){
+    .section-box2{
+        .row{
+            width: 100%;
+            text-align: center;
+            .col-lg-4{
+
+                span{
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+}
