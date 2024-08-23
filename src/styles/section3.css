@@ -1,0 +1,30 @@
+.section-box3 {
+  width: 100%;
+  overflow: hidden;
+}
+.section-box3 .row .col-lg-3 {
+  padding: 0 !important;
+  position: relative;
+  height: 100vh;
+}
+.section-box3 .row .col-lg-3 img {
+  width: 100%;
+}
+.section-box3 .row .col-lg-3 .overlayBox {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+}
+.section-box3 .row .col-lg-3 .overlayBox .innerBox {
+  width: 70%;
+  margin-top: 50px;
+}
+.section-box3 .row .col-lg-3 .overlayBox .innerBox img {
+  width: 35px;
+}
+
+/*# sourceMappingURL=section3.css.map */

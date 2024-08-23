@@ -4,12 +4,14 @@ import "../node_modules/bootstrap-icons/font/bootstrap-icons.css"
 import Header from "./components/header";
 import SectionBox1 from "./components/section1";
 import SectionBox2 from "./components/section2";
+import SectionBox3 from "./components/section3";
 export default function App(){
   return (
     <div style={{height:"auto"}}>
       <Header />
       <SectionBox1 />
       <SectionBox2/>
+      <SectionBox3/>
       <br></br>
     </div>
   )
