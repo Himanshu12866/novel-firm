@@ -1,5 +1,55 @@
 .box1 {
-  color: red;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+}
+.box1 .row {
+  width: 75%;
+  margin-top: 70px;
+}
+.box1 .row h1 {
+  font-size: 35px;
+  color: grey;
+  margin: 20px 0 20px 0;
+}
+.box1 .row .row {
+  width: 80%;
+}
+.box1 .row .row .col-lg-1 {
+  width: 50px;
+  margin-top: 5px;
+}
+.box1 .row .row .col-lg-1 img {
+  width: 40px;
+}
+.box1 .row .row .col-lg-11 p {
+  color: darkgrey;
+  font-size: 25px;
+}
+
+@media (max-width: 500px) {
+  .box1 {
+    text-align: center;
+  }
+  .box1 .row {
+    width: 100%;
+  }
+  .box1 .row .row {
+    width: 100%;
+  }
+  .box1 .row .row .col-lg-1 {
+    width: 100%;
+    margin-left: 1rem;
+  }
+  .box1 .row .row .col-lg-11 {
+    padding-left: 1.8rem;
+  }
+  .box1 .row h1 {
+    font-size: 40px;
+    line-height: 3.5rem;
+  }
 }
 
 /*# sourceMappingURL=box1.css.map */
