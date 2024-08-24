@@ -1,44 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.section-box5{
-   background-image: url("../../public//images/back.jpg");
-   width: 100%;
-//    height: auto;
-background-position: center;
-background-size: cover;
-   padding-bottom: 8%;
-   .sec5-textBox{
-    text-align: center;
-    margin-top: 30px;
-    h2{
-        color: white;
-        font-size: 25px;
-        font-family: "Montserrat", sans-serif;    
-        font-weight: normal;  
-        margin: 25px 0;  
+.section-box5 {
+    background-image: url("../../public//images/back.jpg");
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    padding-bottom: 8%;
+    .sec5-textBox {
+        text-align: center;
+        margin-top: 30px;
+
+        h2 {
+            color: white;
+            font-size: 25px;
+            font-family: "Montserrat", sans-serif;
+            font-weight: normal;
+            margin: 25px 0;
 
 
-    }
-    p{
-        color: #9d9d9d;
-        line-height: 10px;
-        font-size: 18px;
-        word-spacing: 1px;
-    }
-    button{
-        margin-top: 20px;
-        border: none;
-        background-color: white;
-        color: black;
-        padding: 15px 20px;
-        border-radius: 55px;
-        transition: .3s ease-in-out;
-        font-size: 15px;
-    }
-    button:hover{
-        background-color: black;
-        color: white;
-    }
+        }
 
-  }
+        p {
+            color: #9d9d9d;
+            line-height: 10px;
+            font-size: 18px;
+            word-spacing: 1px;
+        }
+
+        button {
+            margin-top: 20px;
+            border: none;
+            background-color: white;
+            color: black;
+            padding: 15px 20px;
+            border-radius: 55px;
+            transition: .3s ease-in-out;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: black;
+            color: white;
+        }
+
+    }
+}
+
+@media(max-width:500px) {
+    .section-box5{
+        .sec5-textBox{
+            p{
+                line-height:20px;
+            }
+        }
+    }
 }

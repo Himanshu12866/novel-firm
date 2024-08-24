@@ -1,3 +1,4 @@
+
 import "../styles/section5.css"
 import Box5 from "./box5";
 import Box6 from "./box6";

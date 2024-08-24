@@ -38,4 +38,10 @@
   color: white;
 }
 
+@media (max-width: 500px) {
+  .section-box5 .sec5-textBox p {
+    line-height: 20px;
+  }
+}
+
 /*# sourceMappingURL=section5.css.map */
