@@ -10,6 +10,18 @@ export default function Box4() {
                         <h4>Lallan Pathan</h4>
                         <p>Founder</p>
                     </div>
+                    <div className="slider">
+                        <b className="bi bi-x-lg"></b>
+                        <h2>Lallan Pathan</h2>
+                        <p>Founder</p>
+                        <br></br>
+                        <i>A web application, or web app, is a program that is stored on a remote server and delivered to a user's device through a web browser interface.</i>
+                        <div className="d-flex justify-content-around align-items-center mt-3">
+                            <div><span className="bi bi-github"></span></div>
+                            <div><span className="bi bi-twitter-x"></span></div>
+                            <div><span className="bi bi-linkedin"></span></div>
+                        </div>
+                    </div>
                 </div>
                 <div className="col-lg-4 col-sm-12">
                     <img alt="pics" src="../images/pic4.jpg"></img>
