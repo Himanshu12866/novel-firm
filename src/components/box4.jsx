@@ -2,12 +2,12 @@
 import { useState } from "react"
 import "../styles/box4.css"
 export default function Box4() {
-    const [dstyle , setStyle] = useState("slider-1")
-    function AddStyle(e){
-     
-        
+    const [dstyle, setStyle] = useState("slider-1")
+    function AddStyle() {
+        setStyle("slider")
+
     }
-    function RemoveStyle(){
+    function RemoveStyle() {
         setStyle("slider-1");
 
     }
@@ -16,9 +16,9 @@ export default function Box4() {
             <div className="row">
                 <div className="col-lg-4 col-sm-12">
                     <img alt="pics" src="../images/pic3.jpg"></img>
-                    <div className="menu d-flex justify-content-center align-items-center" onClick={AddStyle}>
-                    <span className="bi  bi-list-nested"></span>
-                     </div>
+                    <div className="menu d-flex justify-content-center align-items-center" onClick={AddStyle} id="box_1">
+                        <span className="bi  bi-list-nested"></span>
+                    </div>
                     <div className="text-box">
                         <h4>Lallan Pathan</h4>
                         <p>Founder</p>
@@ -38,12 +38,15 @@ export default function Box4() {
                 </div>
                 <div className="col-lg-4 col-sm-12">
                     <img alt="pics" src="../images/pic4.jpg"></img>
+                    <div className="menu d-flex justify-content-center align-items-center" onClick={AddStyle}>
+                        <span className="bi  bi-list-nested"></span>
+                    </div>
                     <div className="text-box">
                         <h4>Lotiya Pathan</h4>
                         <p>CEO & Executive</p>
                     </div>
                     <div className={dstyle}>
-                        <b className="bi bi-x-lg" onClick={RemoveStyle}></b>
+                        <b className="bi bi-x-lg" id="slider" onClick={RemoveStyle}></b>
                         <h2>Lallan Pathan</h2>
                         <p>Founder</p>
                         <br></br>
@@ -57,6 +60,9 @@ export default function Box4() {
                 </div>
                 <div className="col-lg-4 col-sm-12">
                     <img alt="pics" src="../images/pic5.jpg"></img>
+                    <div className="menu d-flex justify-content-center align-items-center" onClick={AddStyle}>
+                        <span className="bi  bi-list-nested"></span>
+                    </div>
                     <div className="text-box">
                         <h4>Nimbu Hatela</h4>
                         <p>Software Engineer</p>
