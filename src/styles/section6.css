@@ -1,22 +1,28 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .section-box6 {
   width: 100%;
-  display: flex;
   background-image: url("../../public/images/pic12.jpg");
   background-size: cover;
   background-position: center;
+  display: flex;
   justify-content: center;
   align-items: center;
   height: 300px;
 }
 .section-box6 .row {
   width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .section-box6 .row .col-lg-6 {
   color: white;
   font-family: "Montserrat", sans-serif;
 }
-.section-box6 .row .col-lg-6 button {
+.section-box6 .row .col-lg-6 div {
+  margin-top: 30px;
+}
+.section-box6 .row .col-lg-6 div button {
   border: none;
   background-color: black;
   color: white;
@@ -25,7 +31,7 @@
   font-size: small;
   transition: 0.3s linear;
 }
-.section-box6 .row .col-lg-6 button:hover {
+.section-box6 .row .col-lg-6 div button:hover {
   background-color: white;
   color: black;
 }
