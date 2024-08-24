@@ -3,7 +3,9 @@
 .section-box5{
    background-image: url("../../public//images/back.jpg");
    width: 100%;
-   height: auto;
+//    height: auto;
+background-position: center;
+background-size: cover;
    padding-bottom: 8%;
    .sec5-textBox{
     text-align: center;
