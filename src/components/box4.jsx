@@ -3,8 +3,9 @@ import { useState } from "react"
 import "../styles/box4.css"
 export default function Box4() {
     const [dstyle , setStyle] = useState("slider-1")
-    function AddStyle(){
-        setStyle("slider")
+    function AddStyle(e){
+     
+        
     }
     function RemoveStyle(){
         setStyle("slider-1");
