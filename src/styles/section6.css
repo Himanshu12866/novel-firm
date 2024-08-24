@@ -22,11 +22,14 @@
 .section-box6 .row .col-lg-6 div {
   margin-top: 30px;
 }
+.section-box6 .row .col-lg-6 div h2 {
+  font-family: "Montserrat", sans-serif;
+}
 .section-box6 .row .col-lg-6 div button {
   border: none;
   background-color: black;
   color: white;
-  border-radius: 50px;
+  border-radius: 200px;
   padding: 14px 25px;
   font-size: small;
   transition: 0.3s linear;
@@ -34,6 +37,29 @@
 .section-box6 .row .col-lg-6 div button:hover {
   background-color: white;
   color: black;
+}
+.section-box6 .row .col-lg-6 div div {
+  width: 95%;
+  text-align: right;
+}
+.section-box6 .row .col-lg-6 div div p {
+  line-height: 8px;
+}
+
+@media (max-width: 500px) {
+  .section-box6 {
+    height: 75vh;
+    text-align: center;
+  }
+  .section-box6 .row .col-lg-6 div {
+    text-align: center;
+  }
+  .section-box6 .row .col-lg-6 div h2 {
+    font-size: xx-large;
+  }
+  .section-box6 .row .col-lg-6 div div p {
+    text-align: center;
+  }
 }
 
 /*# sourceMappingURL=section6.css.map */

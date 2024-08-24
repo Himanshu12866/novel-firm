@@ -23,11 +23,15 @@
 
             div {
                 margin-top: 30px;
+                h2{
+                    font-family: "Montserrat", sans-serif;
+
+                }
                 button {
                     border: none;
                     background-color: black;
                     color: white;
-                    border-radius: 50px;
+                    border-radius: 200px;
                     padding: 14px 25px;
                     font-size: small;
                     transition: .3s linear;
@@ -36,7 +40,36 @@
                     background-color: white;
                     color: black;
                 }
+                div{
+                    width: 95%;
+                    text-align: right;
+                    p{
+                        line-height: 8px;
+                    }
+                }
             }
         }
     }
+}
+@media (max-width:500px) {
+    .section-box6 {
+        height: 75vh;
+        text-align: center;
+        .row{
+            .col-lg-6{
+                div{
+                    text-align: center;
+                    h2{
+                        font-size: xx-large;
+                    }
+                    div{
+                        p{
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
 }
