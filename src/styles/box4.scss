@@ -26,6 +26,7 @@
                 width: 50px;
                 height: 50px;
                 border-radius: 50%;
+                cursor: pointer;
                 background-image: linear-gradient(#8a8c88, #766d70);
 
                 span {
@@ -36,7 +37,7 @@
                 }
             }
 
-           
+
 
             .slider-1 {
                 position: absolute;
@@ -48,7 +49,7 @@
                 text-align: center;
                 padding: 10px;
                 transform: translateX(-500px);
-                animation:SlideOut 0.3s linear;
+                animation: SlideOut 0.3s linear;
 
                 h2 {
                     padding-top: 35px;
@@ -102,14 +103,16 @@
                     }
                 }
             }
+
             @keyframes SlideOut {
-                from{
+                from {
                     transform: translateX(0);
                 }
-                to{
+
+                to {
                     transform: translateX(-500px);
                 }
-                
+
             }
 
             .slider {
@@ -121,7 +124,7 @@
                 background-image: linear-gradient(#09203F, #637c8f);
                 text-align: center;
                 padding: 10px;
-                animation:SlideIn 0.3s linear;
+                animation: SlideIn 0.3s linear;
 
                 h2 {
                     padding-top: 35px;
