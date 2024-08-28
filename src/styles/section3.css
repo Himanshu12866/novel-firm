@@ -62,4 +62,10 @@
   margin-bottom: 40px;
 }
 
+@media (max-width: 500px) {
+  .section-box3 .row .col-lg-3 {
+    margin-bottom: -60px;
+  }
+}
+
 /*# sourceMappingURL=section3.css.map */

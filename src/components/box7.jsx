@@ -16,7 +16,6 @@ export default function Section7Box() {
                                 <p>No more fumbling to unlock your</p>
                                 <span>phone and find your notes app; </span>
                             </div>
-
                         </div>
                         <div className="row">
                             <div className="col-lg-2 col-sm-6">
@@ -26,7 +25,6 @@ export default function Section7Box() {
                                 <p>No more fumbling to unlock your</p>
                                 <span>phone and find your notes app; </span>
                             </div>
-
                         </div>
                         <div className="row">
                             <div className="col-lg-2 col-sm-6">
@@ -36,12 +34,10 @@ export default function Section7Box() {
                                 <p>No more fumbling to unlock your</p>
                                 <span>phone and find your notes app; </span>
                             </div>
-
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     )
 }
