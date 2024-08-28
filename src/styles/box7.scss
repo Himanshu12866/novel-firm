@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-
-
 .box7{
+   width: 100%;
+   height: 120vh;
     .row{
+        width: 100%;
+        height: 120vh;
+        background-color: red;
         .col-12{
             h2{
                 font-family: "Montserrat", sans-serif;
+                font-weight: normal;
+              
+                font-size: 25px;
 
             }
         }

@@ -3,7 +3,11 @@
   height: 120vh;
   overflow: hidden;
 }
+.section-box7 .row {
+  margin: 0 !important;
+}
 .section-box7 .row .col-lg-6 {
+  padding: 0 !important;
   display: flex;
   justify-content: center;
   align-items: center;
