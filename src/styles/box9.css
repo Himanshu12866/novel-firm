@@ -39,16 +39,28 @@
   left: 10%;
   color: white;
   z-index: 1;
+  animation: SlideOut 0.3s linear;
+}
+@keyframes SlideOut {
+  from {
+    top: 5%;
+    font-size: 10px;
+  }
+  to {
+    top: 25%;
+    left: 10%;
+    color: white;
+  }
 }
 #Box-1d .col-12 .row .col-9 .span {
   position: absolute;
   top: 5%;
   left: 5%;
-  color: grey;
+  color: rgb(251, 251, 251);
   font-size: 10px;
-  animation: SlideTop 0.3s linear;
+  animation: SlideIn 0.3s linear;
 }
-@keyframes SlideTop {
+@keyframes SlideIn {
   from {
     top: 25%;
     left: 10%;
@@ -79,11 +91,14 @@
     width: 100%;
   }
   #Box-1d .col-12 {
+    width: 100%;
     text-align: center;
     padding: 0;
   }
   #Box-1d .col-12 h2 {
-    font-size: 30px;
+    font-size: 35px;
+    margin: 0;
+    padding: 0;
   }
 }
 

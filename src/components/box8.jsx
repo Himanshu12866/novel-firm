@@ -10,7 +10,7 @@ export default function Box8() {
                 <p>Dubai Emirates</p>
                 <p>Phone Number : 789654123</p>
                 <p>Zip Code: 00000</p>
-                <p style={{color:"white"}}>Email : <i>Manshu010m@gmail.com</i></p>
+                <p className="break-word"  style={{color:"white"}}>Email : <i>Manshu010m@gmail.com</i></p>
             </div>
             <div className="col-lg-6 col-sm-12">
                 <img src="../images/pic15.png" alt="dubai"></img>
@@ -19,7 +19,7 @@ export default function Box8() {
                 <p>Nottimgham</p>
                 <p>Phone Number : 789654123</p>
                 <p>ZNP2 CPP4</p>
-                <p style={{color:"white"}}>Email : <i>Manshu010m@gmail.com</i></p>
+                <p className="break-word" style={{color:"white"}}>Email : <i>Manshu010m@gmail.com</i></p>
             </div>
         </div>
     )

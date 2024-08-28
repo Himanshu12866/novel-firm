@@ -27,5 +27,15 @@
 @media(max-width:500px){
     #Box-Id{
         text-align: center;
+        .col-lg-6{
+            p{
+                width: 100%;
+                
+                i{
+                   margin-top: 10px !important;
+                }
+                
+            }
+        }
     }
 }
