@@ -25,6 +25,13 @@
   .section-box7 {
     height: auto;
   }
+  .section-box7 .row .col-lg-6 {
+    padding: 0;
+    height: auto;
+  }
+  .section-box7 .row #img-box {
+    height: 400px;
+  }
 }
 
 /*# sourceMappingURL=section7.css.map */

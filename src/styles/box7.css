@@ -50,22 +50,36 @@
     height: auto;
   }
   .box7 .row1 {
-    height: 80vh;
+    height: auto;
+    width: 100%;
+  }
+  .box7 .row1 .col-12 {
+    text-align: center;
   }
   .box7 .row1 .col-12 h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: normal;
-    font-size: 25px;
+    font-size: 35px;
   }
   .box7 .row1 .col-12 .insider-box {
-    margin-top: 5px;
+    margin-top: 15px;
   }
   .box7 .row1 .col-12 .insider-box .row {
     padding: 5px 0 5px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .box7 .row1 .col-12 .insider-box .row .col-lg-2 {
+    width: 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .box7 .row1 .col-12 .insider-box .row .col-lg-2 img {
     width: 100%;
-    padding: 70px;
   }
   .box7 .row1 .col-12 .insider-box .row .col-lg-10 {
     margin-top: 0;

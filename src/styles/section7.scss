@@ -13,13 +13,10 @@
             align-items: center;
             height: 120vh;
         }
-
-        // width: 100%;
         #img-box {
             background-image: url("../../public/images/pic13.jpg");
             background-size: cover;
             background-position: center;
-     
             height: 120vh;
             background-color: red;
         }
@@ -28,5 +25,13 @@
 @media(max-width:500px){
     .section-box7{
         height: auto;
+        .row{
+        .col-lg-6{
+         padding: 0;
+            height: auto;
+        }
+        #img-box{
+            height: 400px;
+        }}
     }
 }
