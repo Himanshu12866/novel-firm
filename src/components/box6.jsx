@@ -52,7 +52,7 @@ export default function Box6() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-4 col-sm-12 col-1">
+                <div className="col-lg-4 col-sm-12 col-1" id="imp-box">
                     <div className="row">
                         <div className="col-12">
                             <div className="overlay-box">
