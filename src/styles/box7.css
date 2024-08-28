@@ -12,6 +12,9 @@
   height: 80vh;
   padding: 10px;
 }
+.box7 .row1 .col-12 {
+  margin-top: 30px;
+}
 .box7 .row1 .col-12 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
@@ -23,22 +26,59 @@
 .box7 .row1 .col-12 .insider-box .row {
   padding: 25px 0 25px 0;
 }
-.box7 .row1 .col-12 .insider-box .row .col-2 {
+.box7 .row1 .col-12 .insider-box .row .col-lg-2 {
   padding: 10px;
 }
-.box7 .row1 .col-12 .insider-box .row .col-2 img {
+.box7 .row1 .col-12 .insider-box .row .col-lg-2 img {
   width: 100%;
+  padding: 5px;
 }
-.box7 .row1 .col-12 .insider-box .row .col-10 {
+.box7 .row1 .col-12 .insider-box .row .col-lg-10 {
   padding: 10px;
 }
-.box7 .row1 .col-12 .insider-box .row .col-10 p {
+.box7 .row1 .col-12 .insider-box .row .col-lg-10 p {
   font-size: 20px;
   font-family: "Montserrat", sans-serif;
 }
-.box7 .row1 .col-12 .insider-box .row .col-10 span {
+.box7 .row1 .col-12 .insider-box .row .col-lg-10 span {
   color: grey;
   font-size: 15px;
+}
+
+@media (max-width: 500px) {
+  .box7 {
+    height: auto;
+  }
+  .box7 .row1 {
+    height: 80vh;
+  }
+  .box7 .row1 .col-12 h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 25px;
+  }
+  .box7 .row1 .col-12 .insider-box {
+    margin-top: 5px;
+  }
+  .box7 .row1 .col-12 .insider-box .row {
+    padding: 5px 0 5px 0;
+  }
+  .box7 .row1 .col-12 .insider-box .row .col-lg-2 img {
+    width: 100%;
+    padding: 70px;
+  }
+  .box7 .row1 .col-12 .insider-box .row .col-lg-10 {
+    margin-top: 0;
+    padding: 10px;
+  }
+  .box7 .row1 .col-12 .insider-box .row .col-lg-10 p {
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+  }
+  .box7 .row1 .col-12 .insider-box .row .col-lg-10 span {
+    color: grey;
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=box7.css.map */

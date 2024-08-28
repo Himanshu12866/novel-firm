@@ -21,4 +21,10 @@
   background-color: red;
 }
 
+@media (max-width: 500px) {
+  .section-box7 {
+    height: auto;
+  }
+}
+
 /*# sourceMappingURL=section7.css.map */

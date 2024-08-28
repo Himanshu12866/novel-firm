@@ -12,7 +12,7 @@ export default function Section7Box() {
                             <div className="col-lg-2 col-sm-6">
                                 <img src="../images/png1.svg" alt="png"></img>
                             </div>
-                            <div className="col-10">
+                            <div className="col-lg-10 col-sm-6">
                                 <p>No more fumbling to unlock your</p>
                                 <span>phone and find your notes app; </span>
                             </div>
@@ -22,7 +22,7 @@ export default function Section7Box() {
                             <div className="col-lg-2 col-sm-6">
                                 <img src="../images/png2.svg" alt="png"></img>
                             </div>
-                            <div className="col-10">
+                            <div className="col-lg-10 col-sm-6">
                                 <p>No more fumbling to unlock your</p>
                                 <span>phone and find your notes app; </span>
                             </div>
@@ -32,7 +32,7 @@ export default function Section7Box() {
                             <div className="col-lg-2 col-sm-6">
                                 <img src="../images/png3.svg" alt="png"></img>
                             </div>
-                            <div className="col-10">
+                            <div className="col-lg-10 col-sm-6">
                                 <p>No more fumbling to unlock your</p>
                                 <span>phone and find your notes app; </span>
                             </div>

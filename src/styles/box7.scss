@@ -12,33 +12,95 @@
         width: 80%;
         height: 80vh;
         padding: 10px;
+
         .col-12 {
+            margin-top: 30px;
+
             h2 {
                 font-family: "Montserrat", sans-serif;
                 font-weight: normal;
                 font-size: 35px;
+
             }
+
             .insider-box {
                 margin-top: 30px;
-                .row{
-                   padding: 25px 0 25px 0;
-                   .col-2{
-                    padding: 10px;
-                img{
-                    width: 100%;
+
+                .row {
+                    padding: 25px 0 25px 0;
+
+                    .col-lg-2 {
+                        padding: 10px;
+
+                        img {
+                            width: 100%;
+                            padding: 5px;
+                        }
+                    }
+
+                    .col-lg-10 {
+                        padding: 10px;
+
+                        p {
+                            font-size: 20px;
+                            font-family: "Montserrat", sans-serif;
+                        }
+
+                        span {
+                            color: grey;
+                            font-size: 15px;
+                        }
+                    }
                 }
-                   }
-                   .col-10{
-                    padding: 10px;
-                    p{
-                        font-size: 20px;
-                        font-family: "Montserrat", sans-serif;
+            }
+        }
+    }
+}
+
+@media(max-width:500px) {
+    .box7 {
+        height: auto;
+
+        .row1 {
+            height: 80vh;
+
+            .col-12 {
+                h2 {
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: normal;
+                    font-size: 25px;
+                }
+
+                .insider-box {
+                    margin-top: 5px;
+
+                    .row {
+                        padding: 5px 0 5px 0;
+
+                        .col-lg-2 {
+
+                            // padding: 10px;   
+                            img {
+                                width: 100%;
+                                padding: 70px;
+                            }
+                        }
+
+                        .col-lg-10 {
+                            margin-top: 0;
+                            padding: 10px;
+
+                            p {
+                                font-size: 20px;
+                                font-family: "Montserrat", sans-serif;
+                            }
+
+                            span {
+                                color: grey;
+                                font-size: 15px;
+                            }
+                        }
                     }
-                    span{
-                        color: grey;
-                        font-size: 15px;
-                    }
-                   }
                 }
             }
         }
