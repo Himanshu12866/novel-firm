@@ -1,6 +1,14 @@
 
+import { useState } from "react"
 import "../styles/box9.css"
 export default function Box9() {
+    const [spanStyle , setSpanStyle] = useState("spanStyle")
+    function SlideTopSpan(){
+        setSpanStyle("span")
+    }
+    function Unstyled(){
+        setSpanStyle("spanStyle")
+    }
     return (
         <div className="row" id="Box-1d">
             <div className="col-12">
@@ -13,7 +21,10 @@ export default function Box9() {
                 </p>
                 <div className="row">
                     <div className="col-9">
-                        <input type="text"></input>
+                    <span className={spanStyle } onClick={SlideTopSpan}>
+                    Email Address
+                    </span>
+                        <input type="text" onBlur={Unstyled}  onClick={SlideTopSpan} className="input-text"></input>
                     </div>
                     <div className="col-3">
                         <button>Subscribe</button>
