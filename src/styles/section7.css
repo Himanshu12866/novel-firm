@@ -3,6 +3,12 @@
   height: 120vh;
   overflow: hidden;
 }
+.section-box7 .row .col-lg-6 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120vh;
+}
 .section-box7 .row #img-box {
   background-image: url("../../public/images/pic13.jpg");
   background-size: cover;
