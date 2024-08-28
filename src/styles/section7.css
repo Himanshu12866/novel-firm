@@ -1,0 +1,15 @@
+.section-box7 {
+  width: 100%;
+  overflow: hidden;
+}
+.section-box7 .row .col-lg-6 {
+  background-color: red;
+}
+.section-box7 .row .col-lg-6 img {
+  background-image: url("../../public/images/pic13.jpg");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+
+/*# sourceMappingURL=section7.css.map */

@@ -8,6 +8,7 @@ import SectionBox3 from "./components/section3";
 import SectionBox4 from "./components/section4";
 import SectionBox5 from "./components/section5";
 import SectionBox6 from "./components/section6";
+import SectionBox7 from "./components/section7";
 export default function App() {
   return (
     <div style={{ height: "auto" }}>
@@ -18,6 +19,7 @@ export default function App() {
       <SectionBox4 />
       <SectionBox5 />
       <SectionBox6/>
+      <SectionBox7 />
     </div>
   )
 }
