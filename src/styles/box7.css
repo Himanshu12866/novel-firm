@@ -2,16 +2,43 @@
 .box7 {
   width: 100%;
   height: 120vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
 }
-.box7 .row {
-  width: 100%;
-  height: 120vh;
-  background-color: red;
+.box7 .row1 {
+  width: 80%;
+  height: 80vh;
+  padding: 10px;
 }
-.box7 .row .col-12 h2 {
+.box7 .row1 .col-12 h2 {
   font-family: "Montserrat", sans-serif;
   font-weight: normal;
-  font-size: 25px;
+  font-size: 35px;
+}
+.box7 .row1 .col-12 .insider-box {
+  margin-top: 30px;
+}
+.box7 .row1 .col-12 .insider-box .row {
+  padding: 25px 0 25px 0;
+}
+.box7 .row1 .col-12 .insider-box .row .col-2 {
+  padding: 10px;
+}
+.box7 .row1 .col-12 .insider-box .row .col-2 img {
+  width: 100%;
+}
+.box7 .row1 .col-12 .insider-box .row .col-10 {
+  padding: 10px;
+}
+.box7 .row1 .col-12 .insider-box .row .col-10 p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+.box7 .row1 .col-12 .insider-box .row .col-10 span {
+  color: grey;
+  font-size: 15px;
 }
 
 /*# sourceMappingURL=box7.css.map */
