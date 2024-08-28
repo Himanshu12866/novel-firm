@@ -1,3 +1,31 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 #Box-Id{
-    color: red;
+    width: 100%;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+   .col-lg-6{
+
+    h3{
+        font-size: 25px;
+        color: rgb(116,83,255);
+        font-family: "Montserrat", sans-serif;
+        margin: 20px 0 15px 10px;
+
+    }
+    p{
+        color:rgb(173, 170, 170);
+        font-family: "Montserrat", sans-serif;
+        line-height: 10px;
+        font-size: 16px;
+
+    }
+   }
+}
+@media(max-width:500px){
+    #Box-Id{
+        text-align: center;
+    }
 }
