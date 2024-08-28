@@ -9,6 +9,7 @@ import SectionBox4 from "./components/section4";
 import SectionBox5 from "./components/section5";
 import SectionBox6 from "./components/section6";
 import SectionBox7 from "./components/section7";
+import Footer from "./components/footer";
 export default function App() {
   return (
     <div style={{ height: "auto" }}>
@@ -20,6 +21,7 @@ export default function App() {
       <SectionBox5 />
       <SectionBox6/>
       <SectionBox7 />
+      <Footer/>
     </div>
   )
 }
