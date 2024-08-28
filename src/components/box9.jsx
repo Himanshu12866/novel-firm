@@ -24,7 +24,7 @@ export default function Box9() {
                     <span className={spanStyle } onClick={SlideTopSpan}>
                     Email Address
                     </span>
-                        <input type="text" onBlur={Unstyled}  onClick={SlideTopSpan} className="input-text"></input>
+                        <input type="text" required onBlur={Unstyled}  onClick={SlideTopSpan} className="input-text"></input>
                     </div>
                     <div className="col-3">
                         <button>Subscribe</button>

@@ -10,6 +10,7 @@ import SectionBox5 from "./components/section5";
 import SectionBox6 from "./components/section6";
 import SectionBox7 from "./components/section7";
 import Footer from "./components/footer";
+import Copyright from "./components/copyright";
 export default function App() {
   return (
     <div style={{ height: "auto" }}>
@@ -22,6 +23,7 @@ export default function App() {
       <SectionBox6/>
       <SectionBox7 />
       <Footer/>
+      <Copyright/>
     </div>
   )
 }
